@@ -1,0 +1,362 @@
+.App {
+  text-align: center;
+}
+
+#Nav{
+  display: flex;
+  height: 30px;
+  padding: 5px;
+  background-color: rgb(0, 117, 200);
+  justify-content: space-between;
+}
+#Navleft{
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0px 5px;
+}
+#Navright{
+  display: flex;
+  justify-content: space-between;
+}
+.admin{
+  font-weight: 500;
+  color: white;
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+}
+#admin-options{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: auto;
+  border-radius: 2px;
+  border: 1px solid rgb(0, 117, 200);
+  right: 5px;
+  color: rgb(0, 117, 200);
+  font-weight: 500;
+  right: 60px;
+}
+.help{
+  color: white;
+  font-weight: 500;
+}
+.sb{
+  margin: 0px 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+#currentpast{
+  padding: 0px;
+  box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+.current{
+  border: solid rgb(0, 117, 200);
+  border-width: 0px 0px 3px 0px;
+}
+.past{
+  border:  solid rgb(0, 117, 200);
+  border-width: 0px 0px 3px 0px;
+}
+.currentpastopt{
+  margin: 0px;
+  padding: 15px;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Links{
+  text-decoration: none;
+}
+.current-documents{
+  height: 200px;
+  width: 90%;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.2);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  cursor: pointer;
+}
+#no-past{
+  color: darkgray;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sb2{
+  margin: 10px;
+}
+.link1{
+  color: black;
+}
+h3.doc-title{
+  font-family: Verdana;
+  color: rgb(0, 117, 200);
+  margin: 10px;
+}
+h2.doc-title{
+  color: rgb(0, 117, 200);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#description-txt{
+  width: 90%;
+}
+#description-txt{
+  font-size: 15px;
+  font-family: Tahoma, sans-serif;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: justify;
+  margin: 10px;
+  padding: 10px;
+}
+#document-body{
+  width: 90%;
+  height: 500px;
+  background-size: contain;
+  background-color: whitesmoke;
+  border: 2px inset whitesmoke;
+  overflow-y: auto;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sign-btn{
+  background-color: rgb(0, 117, 200);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  height: max-content;
+  min-width: 100px;
+  width: max-content;
+  display: block;
+  cursor: pointer;
+}
+.signature-cont{
+  height: 200px;
+  width: 80%;
+  border: solid gray;
+  border-width: 0px 0px 0px 5px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.2);
+  display: flex;
+}
+.signatory-department{
+  color: gray;
+  font-weight: 600;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 20px;
+}
+.signpg{
+  margin: 20px;
+}
+.code-entry{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+}
+#welcome-PO{
+  width: 90%;
+  margin-top: 100px;
+  font-size: 20px;
+}
+hr{
+  width: 90%;
+}
+#manage-sla{
+  width: 90%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  color: rgb(127, 127, 127);
+}
+.processes{
+  width: 90%;
+  min-height: 30px;
+  margin: 10px;
+  padding: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid rgb(0, 117, 200);
+  border-radius: 10px;
+}
+.sgn{
+  padding-left: 20px;
+  cursor: pointer;
+  align-self: center;
+}
+.processestxt{
+  color: rgb(0, 117, 200);
+  margin:  5px;
+  cursor: pointer;
+}
+.process-icon{
+  color: rgb(109, 108, 108);
+}
+.gotosla{
+  display: block;
+  margin: 10px 30px;
+  /* border: 2px solid gray;
+  border-radius: 5px;
+  width: 200px; */
+}
+#file-option{
+  margin: 10px 0px;
+}
+.newdocoptions{
+  display: inline;
+  margin: 10px;
+}
+.active-cont{
+  overflow: auto;
+  height: 200px;
+}
+#new-sla{
+  display: flex;
+}
+#desc-txt{
+  height: 100px;
+}
+#body-txt{
+  height: 80%;
+  width: 500px;
+}
+.newsla-cont{
+  margin: 5px 30px;
+}
+.sla-btn{
+  margin: 20px;
+}
+.add-officials-lbl{
+  display: flex;
+  width: 50%;
+  margin: 10px;
+  justify-content: space-between;
+}
+.add-off-txt{
+  width: 100px
+}
+.spacesb{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.submit-top{
+  width: 60%;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px 20px;
+}
+.submit-sgn{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: rgb(0, 117, 200);
+  font-weight: 600;
+  margin: 20px;
+}
+#authenticate-cont{
+  border: 2px inset rgb(0, 117, 200);
+  width: 60%;
+  border-radius: 20px;
+  margin: 40px;
+}
+.blue-heading{
+  font-weight: 600;
+  color: rgb(0, 117, 200);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.part-more{
+  margin: 20px;
+}
+.auth-input{
+  border-radius: 10px;
+  height: 30px;
+  width: 200px;
+}
+.not-signatory{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: lightgray;
+  color: rgb(50, 50, 50);
+  font-weight: 600;
+  font-style: italic;
+  margin: 10px;
+  height: 20px;
+  padding: 10px;
+  border: 3px solid rgb(0, 117, 200);
+  border-width: 0px 0px 0px 3px;
+}
+.msg-signatory{
+  color: rgb(0, 117, 200);
+  font-weight: 600;
+  margin: 10px;
+  height: 20px;
+  padding: 10px;
+  font-family: 'Lucida Sans';
+  cursor: pointer;
+}
+#all-signature-cont{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+#signed-document-body{
+  width: 80%;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+.sp1{
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.style2{
+  text-decoration: none;
+}
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
